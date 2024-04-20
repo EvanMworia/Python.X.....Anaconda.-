@@ -16,7 +16,7 @@ while (True):
         price = menu[order]
         total += price
         
-        print(total)
+        print(f"${total:.2f}")
     except EOFError:
         break
     except KeyError:
